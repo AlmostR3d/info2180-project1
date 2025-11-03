@@ -39,10 +39,10 @@ nav a:hover {
 }
 
 .overview-hero {
-  background-color: #e2e8f0;  /* grey background */
-  width: 100vw;               /* full viewport width */
-  margin-left: calc(-50vw + 50%); /* makes it truly stretch full width within container context */
-  padding: 60px 0;            /* top and bottom spacing */
+  background-color: #e2e8f0;  
+  width: 100vw;               
+  margin-left: calc(-50vw + 50%); 
+  padding: 60px 0;
 }
 
 .overview-hero .container {
@@ -79,6 +79,15 @@ nav a:hover {
   padding: 60px 0;
 }
 
+.learn-about button {
+  background-color: #48bb78;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .learn-about h2 {
   font-size: 24px;
   color: #48bb78;
@@ -92,7 +101,6 @@ nav a:hover {
   gap: 25px;
 }
 
-/* Equal height cards */
 .card {
   display: flex;
   flex-direction: column;
@@ -105,16 +113,14 @@ nav a:hover {
   text-align: center;
 }
 
-/* Uniform image container */
 .card-image {
-  height: 220px; /* fixed equal height */
+  height: 220px; 
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-/* Fit image inside the fixed area */
 .card-image img {
   height: 100%;
   width: auto;
@@ -122,9 +128,8 @@ nav a:hover {
   max-height: 220px;
 }
 
-/* Card text area */
 .card-body {
-  margin-top: auto; /* pushes it towards the bottom of the card */
+  margin-top: auto; 
 }
 
 .card-body h3 {
@@ -293,3 +298,4 @@ footer {
     padding: 20px 0;
     font-size: 16px;
 }
+
