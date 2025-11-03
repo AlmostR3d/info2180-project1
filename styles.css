@@ -151,3 +151,43 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.newsletter{
+    background-color: #48bb78;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter input[type="email"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.newsletter button{
+    background-color: #5a67d8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    opacity: 0.9;
+}
+
+.message {
+    margin-top: 15px;
+}
